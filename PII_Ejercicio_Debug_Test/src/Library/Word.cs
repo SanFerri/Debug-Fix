@@ -14,6 +14,8 @@ namespace WordsPhrases
 
         /// <summary>
         /// Crea una nueva palabra con el texto recibido como argumento.
+        /// Con el .Trim nos aseguramos de que se borren los espacios extra agregados
+        /// al inicio o final del texto.
         /// </summary>
         /// <param name="text">El texto de la palabra.</param>
         public Word(string text)

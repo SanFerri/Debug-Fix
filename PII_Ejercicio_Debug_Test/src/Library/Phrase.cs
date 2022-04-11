@@ -49,7 +49,7 @@ namespace WordsPhrases
         public string GetPhrase()
         {
             StringBuilder phrase = new StringBuilder();
-
+        
             foreach (Word word in this.words)
             {
                 phrase.Append(" ");

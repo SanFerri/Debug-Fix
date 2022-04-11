@@ -60,7 +60,7 @@ namespace WordsPhrases
 
             // Remueve el primer espacio que se agrega siempre
 
-            return result;
+            return result.Trim();
         }
     }
 }
